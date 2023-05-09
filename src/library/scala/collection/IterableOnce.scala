@@ -1302,8 +1302,8 @@ trait IterableOnceOps[+A, +CC[_], +C] extends Any { this: IterableOnce[A] =>
    *  representation for the current element type `A`. Example uses:
    *
    *  {{{
-   *      xs.to(List)
-   *      xs.to(ArrayBuffer)
+   *      xs.to(List)\n
+   *      xs.to(ArrayBuffer)\n
    *      xs.to(BitSet) // for xs: Iterable[Int]
    *  }}}
    */
